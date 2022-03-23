@@ -12,6 +12,6 @@ func Summation(n int) int {
 }
 
 func main() {
-	fmt.Println(Summation(2))
-
+	fmt.Println(Summation(2)) // 3
+	fmt.Println(Summation(5)) // 15
 }

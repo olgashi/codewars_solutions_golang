@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-
 func BoolToWord(word bool) string {
 	if word {
 		return "Yes"
@@ -14,7 +13,6 @@ func BoolToWord(word bool) string {
 }
 
 func main() {
-
+	fmt.Println(BoolToWord(true))  // Yes
+	fmt.Println(BoolToWord(false)) // No
 }
-
-// PEDAC
