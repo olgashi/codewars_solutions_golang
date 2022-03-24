@@ -13,5 +13,4 @@ func main() {
 	fmt.Println(IsDivisible(12, 2, 6)) // true
 	fmt.Println(IsDivisible(100, 5, 3)) // false
 	fmt.Println(IsDivisible(12, 7, 5)) // false
-
 }
