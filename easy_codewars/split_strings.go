@@ -20,5 +20,4 @@ func Solution(str string) (outputSlice []string) {
 
 func main() {
 	fmt.Println(Solution("abcdefg"))
-	
 }

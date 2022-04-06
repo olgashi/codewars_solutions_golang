@@ -24,7 +24,6 @@ func TwoToOne(s1 string, s2 string) string {
 }
 
 func main() {
-	// Examples:
 	fmt.Println(TwoToOne("xyaabbbccccdefww", "xxxxyyyyabklmopq")) // "abcdefklmopqwxy"
 	fmt.Println(TwoToOne("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz")) // "abcdefghijklmnopqrstuvwxyz"
 	fmt.Println(TwoToOne("aaaaa", "bbbbb")) // "ab"

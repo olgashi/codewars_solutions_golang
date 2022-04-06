@@ -16,5 +16,4 @@ func main() {
 	fmt.Println(Factorial(1)) // 1
 	fmt.Println(Factorial(7)) // 5040
 	fmt.Println(Factorial(0)) // 1
-
 }

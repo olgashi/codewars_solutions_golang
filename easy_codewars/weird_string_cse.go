@@ -24,6 +24,6 @@ func toWeirdCase(str string) (outputStr string) {
 
 func main() {
 	fmt.Println(toWeirdCase("ABC")) // => returns "AbC"
-	// fmt.Println(toWeirdCase("String")) // => returns "StRiNg"
-  // fmt.Println(toWeirdCase("Weird string case")) // => returns "WeIrD StRiNg CaSe"
+	fmt.Println(toWeirdCase("String")) // => returns "StRiNg"
+  fmt.Println(toWeirdCase("Weird string case")) // => returns "WeIrD StRiNg CaSe"
 }

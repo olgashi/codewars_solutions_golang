@@ -31,5 +31,4 @@ func main() {
 	fmt.Println(Step(2, 5, 7)) // [5, 7]
 	fmt.Println(Step(2, 5, 5)) // nil
 	fmt.Println(Step(4, 130, 200)) // [5, 7]
-
 }

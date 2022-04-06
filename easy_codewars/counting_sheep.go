@@ -21,5 +21,4 @@ func main() {
 		true,  false, false, true,
 		true,  true,  true,  true,
 		false, false, true,  true}))
-
 }

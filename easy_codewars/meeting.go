@@ -25,26 +25,3 @@ func main() {
 	fmt.Println(Meeting("Abc:xyz;Abc:xzz")) // ("ABC,XYZ")("ABC,XZZ")
 	fmt.Println(Meeting("John:Gates;Michael:Wahl;Megan:Bell;Paul:Dorries;James:Dorny;Lewis:Steve;Alex:Meta;Elizabeth:Russel;Anna:Korn;Ann:Kern;Amber:Cornwell")) // "(BELL, MEGAN)(CORNWELL, AMBER)(DORNY, JAMES)(DORRIES, PAUL)(GATES, JOHN)(KERN, ANN)(KORN, ANNA)(META, ALEX)(RUSSEL, ELIZABETH)(STEVE, LEWIS)(WAHL, MICHAEL)"	
 }
-
-/*
-Input: string of names of the form:  "First name:Last name;First name:Last name;..."
-Output: string with all letters uppercased, sorted by last name then first name of the following form: "(LAST NAME, FIRST NAME)(LAST NAME, FIRST NAME)..."
-
-- last names are not unique
-- first names are not unique
-
-EXAMPLES:
-
-
-ALGORITHM:
-
--uppercase input string
-- replace all ":" with " "
-- split string on ";", save to a variable - namesList
-- sort names list 
-
-- loop over the sorted list and convert each item to this format: (LAST NAME, FIRST NAME)
-  concatenate to the output string
-
-
-*/

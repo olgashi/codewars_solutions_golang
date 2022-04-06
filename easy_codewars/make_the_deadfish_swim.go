@@ -30,5 +30,4 @@ func Parse(data string) []int {
 
 func main() {
 	fmt.Println(Parse("iiisdoso"))
-
 }

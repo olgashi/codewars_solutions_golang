@@ -34,5 +34,4 @@ func main() {
 	fmt.Println(DuplicateEncode("recede"))
 	fmt.Println(DuplicateEncode("Success"))
 	fmt.Println(DuplicateEncode("(( @"))
-	
 }

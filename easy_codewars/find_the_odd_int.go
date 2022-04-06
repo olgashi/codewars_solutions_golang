@@ -26,5 +26,4 @@ func main() {
 	fmt.Println(FindOdd([]int{1, 1, 2}))
 	fmt.Println(FindOdd([]int{0, 1, 0, 1, 0}))
 	fmt.Println(FindOdd([]int{1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1}))
-	
 }
