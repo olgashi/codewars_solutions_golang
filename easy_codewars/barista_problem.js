@@ -15,16 +15,3 @@ console.log(barista([4, 3, 2])) // 22
 console.log(barista([20, 5])) // 32
 console.log(barista([20,5,4,3,1,5,7,8])) // 211
 console.log(barista([5,4,3,2,1])) // 55
-
-/*
-2 3 5 9 10
-
-2
-2 + 2 + 3 = 7
-7 + 2 + 5 = 14
-14 + 2 + 9 = 25
-25 + 2 + 10 = 37
-
-
-
-*/
