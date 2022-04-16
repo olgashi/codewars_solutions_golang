@@ -7,7 +7,6 @@ import (
 	"regexp"
 )
 
-
 func Is_valid_ip(ip string) bool {
 	ipOctetsList := strings.Split(ip, ".")
 
